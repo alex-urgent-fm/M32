@@ -1,0 +1,80 @@
+#2.7# 1 "current" 2 %0000000000000000 1                                                                                        
+/config/routing/IN B9-16 B17-24 B25-32 B33-40 AUX1-4
+/config/routing/AES50A OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
+/config/routing/AES50B OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
+/config/routing/CARD AN1-8 AN9-16 AN17-24 AN25-32
+/config/routing/OUT AUX/TB AUX/TB CARD9-12 CARD13-16
+/config/routing/PLAY B17-24 A41-48 B1-8 B9-16 AUX1-4
+/config/routing REC
+/outputs/main/01 4 POST OFF
+/outputs/main/01/delay OFF   0.3
+/outputs/main/02 5 POST ON
+/outputs/main/02/delay OFF 336.1
+/outputs/main/03 0 POST OFF
+/outputs/main/03/delay OFF   0.3
+/outputs/main/04 7 POST OFF
+/outputs/main/04/delay OFF   0.3
+/outputs/main/05 23 POST OFF
+/outputs/main/05/delay OFF   0.3
+/outputs/main/06 9 POST OFF
+/outputs/main/06/delay OFF   0.3
+/outputs/main/07 10 POST OFF
+/outputs/main/07/delay OFF   0.3
+/outputs/main/08 11 POST OFF
+/outputs/main/08/delay OFF   0.3
+/outputs/main/09 12 POST OFF
+/outputs/main/09/delay OFF   0.3
+/outputs/main/10 13 POST OFF
+/outputs/main/10/delay OFF   0.3
+/outputs/main/11 14 POST OFF
+/outputs/main/11/delay ON   0.3
+/outputs/main/12 15 POST OFF
+/outputs/main/12/delay OFF   0.3
+/outputs/main/13 16 POST OFF
+/outputs/main/13/delay OFF   0.3
+/outputs/main/14 17 POST OFF
+/outputs/main/14/delay OFF   0.3
+/outputs/main/15 1 POST ON
+/outputs/main/15/delay OFF   0.3
+/outputs/main/16 76 POST OFF
+/outputs/main/16/delay OFF   0.3
+/outputs/aux/01 0 POST OFF
+/outputs/aux/02 0 POST OFF
+/outputs/aux/03 0 POST OFF
+/outputs/aux/04 0 POST OFF
+/outputs/aux/05 0 POST OFF
+/outputs/aux/06 0 POST OFF
+/outputs/p16/01 4 IN/LC+M ON
+/outputs/p16/01/iQ OFF none Linear 0
+/outputs/p16/02 5 IN/LC+M OFF
+/outputs/p16/02/iQ OFF none Linear 0
+/outputs/p16/03 6 IN/LC+M OFF
+/outputs/p16/03/iQ A none Linear 0
+/outputs/p16/04 7 IN/LC+M OFF
+/outputs/p16/04/iQ OFF none Linear 0
+/outputs/p16/05 0 <-EQ OFF
+/outputs/p16/05/iQ OFF none Linear 0
+/outputs/p16/06 9 <-EQ OFF
+/outputs/p16/06/iQ OFF none Linear 0
+/outputs/p16/07 0 <-EQ OFF
+/outputs/p16/07/iQ OFF none Linear 0
+/outputs/p16/08 0 <-EQ OFF
+/outputs/p16/08/iQ OFF none Linear 0
+/outputs/p16/09 0 <-EQ OFF
+/outputs/p16/09/iQ OFF none Linear 0
+/outputs/p16/10 0 <-EQ OFF
+/outputs/p16/10/iQ OFF none Linear 0
+/outputs/p16/11 0 <-EQ OFF
+/outputs/p16/11/iQ OFF none Linear 0
+/outputs/p16/12 25 IN/LC OFF
+/outputs/p16/12/iQ OFF none Linear 0
+/outputs/p16/13 1 PRE OFF
+/outputs/p16/13/iQ OFF none Linear 0
+/outputs/p16/14 2 PRE OFF
+/outputs/p16/14/iQ OFF none Linear 0
+/outputs/p16/15 15 IN/LC OFF
+/outputs/p16/15/iQ OFF none Linear 0
+/outputs/p16/16 76 <-EQ OFF
+/outputs/p16/16/iQ OFF none Linear 0
+/outputs/aes/01 1 EQ->+M OFF
+/outputs/aes/02 2 POST OFF
