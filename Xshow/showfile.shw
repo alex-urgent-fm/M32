@@ -500,11 +500,11 @@ showfile/cue/497 0 "" 0 -1 -1 0 1 0 0
 showfile/cue/498 0 "" 0 -1 -1 0 1 0 0
 showfile/cue/499 0 "" 0 -1 -1 0 1 0 0
 showfile/scene/000 "Urgent.fm" "24ch Standaardpatch" %000000000 1
-showfile/scene/001 "ugfm-alex" "" %000000000 1
-showfile/scene/002 "" "" %000000000 0
-showfile/scene/003 "" "" %000000000 0
-showfile/scene/004 "" "" %000000000 0
-showfile/scene/005 "" "" %000000000 0
+showfile/scene/001 "ugfm-alex" "copy of Urgent.fm patch, update" %000000000 1
+showfile/scene/002 "ALEX" "" %000000000 1
+showfile/scene/003 "default" "" %000000000 1
+showfile/scene/004 "outside" "" %000000000 1
+showfile/scene/005 "test-geq-lr" "" %000000000 1
 showfile/scene/006 "" "" %000000000 0
 showfile/scene/007 "" "" %000000000 0
 showfile/scene/008 "" "" %000000000 0
