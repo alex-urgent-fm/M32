@@ -9,8 +9,8 @@
 /config/mono LR+M OFF
 /config/solo  +1.8 LRPFL 0.0 PFL PFL PFL OFF OFF OFF -11 OFF OFF OFF   0.3 OFF OFF OFF
 /config/talk ON INT
-/config/talk/A  -9.0 ON OFF %000000000000000000
-/config/talk/B  -6.0 ON ON %000000000000000000
+/config/talk/A  -9.0 ON OFF %000000100000000000
+/config/talk/B  -6.0 ON ON %000000100000000000
 /config/osc -18.0 100.2 1k00 F2 SINE 3
 /config/routing/IN A1-8 A9-16 A17-24 CARD25-32 AUX1-4
 /config/routing/AES50A AN1-8 AN9-16 AN17-24 AN25-32 P161-8 P169-16
@@ -43,7 +43,7 @@
 /ch/01/eq/2 PEQ 496.6 +0.00 2.0
 /ch/01/eq/3 PEQ 1k97 +0.00 2.0
 /ch/01/eq/4 HShv 10k02 +0.00 2.0
-/ch/01/mix ON   -oo OFF +0 OFF   -oo
+/ch/01/mix ON  -1.8 OFF +0 OFF   -oo
 /ch/01/mix/01 ON  -0.3 +0 POST
 /ch/01/mix/02 OFF   -oo
 /ch/01/mix/03 ON   -oo -100 EQ->
@@ -75,7 +75,7 @@
 /ch/02/eq/2 PEQ 496.6 +0.00 2.0
 /ch/02/eq/3 PEQ 1k97 +0.00 2.0
 /ch/02/eq/4 HShv 10k02 +0.00 2.0
-/ch/02/mix ON   -oo OFF +0 OFF   -oo
+/ch/02/mix ON -26.5 OFF +0 OFF   -oo
 /ch/02/mix/01 ON  +0.3 +0 POST
 /ch/02/mix/02 OFF   -oo
 /ch/02/mix/03 ON   -oo +100 EQ->
@@ -107,7 +107,7 @@
 /ch/03/eq/2 PEQ 496.6 +0.00 2.0
 /ch/03/eq/3 PEQ 1k97 +0.00 2.0
 /ch/03/eq/4 HShv 10k02 +0.00 2.0
-/ch/03/mix ON   -oo OFF +0 OFF   -oo
+/ch/03/mix ON  +0.5 OFF +0 OFF   -oo
 /ch/03/mix/01 OFF   -oo +0 POST
 /ch/03/mix/02 ON  -1.3
 /ch/03/mix/03 ON   -oo -100 EQ->
@@ -139,7 +139,7 @@
 /ch/04/eq/2 PEQ 496.6 +0.00 2.0
 /ch/04/eq/3 PEQ 1k97 +0.00 2.0
 /ch/04/eq/4 HShv 10k02 +0.00 2.0
-/ch/04/mix ON   -oo OFF +0 OFF   -oo
+/ch/04/mix ON -24.2 OFF +0 OFF   -oo
 /ch/04/mix/01 OFF   -oo +0 POST
 /ch/04/mix/02 ON  -2.5
 /ch/04/mix/03 ON   -oo +100 EQ->
@@ -171,7 +171,7 @@
 /ch/05/eq/2 PEQ 496.6 +0.00 2.0
 /ch/05/eq/3 PEQ 1k97 +0.00 2.0
 /ch/05/eq/4 HShv 10k02 +0.00 2.0
-/ch/05/mix ON   -oo OFF +0 OFF   -oo
+/ch/05/mix ON  -0.7 OFF +0 OFF   -oo
 /ch/05/mix/01 OFF   -oo +0 POST
 /ch/05/mix/02 ON  -1.3
 /ch/05/mix/03 ON   -oo -100 EQ->
@@ -203,7 +203,7 @@
 /ch/06/eq/2 PEQ 496.6 +0.00 2.0
 /ch/06/eq/3 PEQ 1k97 +0.00 2.0
 /ch/06/eq/4 HShv 10k02 +0.00 2.0
-/ch/06/mix ON   -oo OFF +0 OFF   -oo
+/ch/06/mix ON  +0.5 OFF +0 OFF   -oo
 /ch/06/mix/01 OFF   -oo +0 POST
 /ch/06/mix/02 ON  -1.3
 /ch/06/mix/03 ON   -oo +100 EQ->
@@ -235,7 +235,7 @@
 /ch/07/eq/2 PEQ 496.6 +0.00 2.0
 /ch/07/eq/3 PEQ 1k97 +0.00 2.0
 /ch/07/eq/4 HShv 10k02 +0.00 2.0
-/ch/07/mix ON   -oo OFF +0 OFF   -oo
+/ch/07/mix ON  -0.7 OFF +0 OFF   -oo
 /ch/07/mix/01 OFF   -oo +0 POST
 /ch/07/mix/02 ON  -1.3
 /ch/07/mix/03 ON   -oo -100 EQ->
@@ -267,7 +267,7 @@
 /ch/08/eq/2 PEQ 496.6 +0.00 2.0
 /ch/08/eq/3 PEQ 1k97 +0.00 2.0
 /ch/08/eq/4 HShv 10k02 +0.00 2.0
-/ch/08/mix ON   -oo OFF +0 OFF   -oo
+/ch/08/mix ON  -1.8 OFF +0 OFF   -oo
 /ch/08/mix/01 OFF   -oo +0 POST
 /ch/08/mix/02 ON  -1.3
 /ch/08/mix/03 ON   -oo +100 EQ->
@@ -299,7 +299,7 @@
 /ch/09/eq/2 PEQ 496.6 +0.00 2.0
 /ch/09/eq/3 PEQ 1k97 +0.00 2.0
 /ch/09/eq/4 HShv 10k02 +0.00 2.0
-/ch/09/mix ON   -oo OFF -100 OFF   -oo
+/ch/09/mix ON  -0.7 OFF -100 OFF   -oo
 /ch/09/mix/01 OFF   -oo -100 POST
 /ch/09/mix/02 ON  -0.8
 /ch/09/mix/03 ON   -oo -100 EQ->
@@ -331,7 +331,7 @@
 /ch/10/eq/2 PEQ 496.6 +0.00 2.0
 /ch/10/eq/3 PEQ 1k97 +0.00 2.0
 /ch/10/eq/4 HShv 10k02 +0.00 2.0
-/ch/10/mix ON   -oo OFF +100 OFF   -oo
+/ch/10/mix ON  -0.7 OFF +100 OFF   -oo
 /ch/10/mix/01 OFF   -oo +100 POST
 /ch/10/mix/02 ON  -0.8
 /ch/10/mix/03 ON   -oo +100 EQ->
@@ -363,7 +363,7 @@
 /ch/11/eq/2 PEQ 496.6 +0.00 2.0
 /ch/11/eq/3 PEQ 1k97 +0.00 2.0
 /ch/11/eq/4 HShv 10k02 +0.00 2.0
-/ch/11/mix ON   -oo ON -100 OFF   -oo
+/ch/11/mix ON  -0.7 ON -100 OFF   -oo
 /ch/11/mix/01 OFF   -oo -100 POST
 /ch/11/mix/02 ON  -2.5
 /ch/11/mix/03 ON   -oo -100 EQ->
@@ -395,7 +395,7 @@
 /ch/12/eq/2 PEQ 496.6 +0.00 2.0
 /ch/12/eq/3 PEQ 1k97 +0.00 2.0
 /ch/12/eq/4 HShv 10k02 +0.00 2.0
-/ch/12/mix ON   -oo ON +100 OFF   -oo
+/ch/12/mix ON  -0.7 ON +100 OFF   -oo
 /ch/12/mix/01 OFF   -oo +100 POST
 /ch/12/mix/02 ON  -2.5
 /ch/12/mix/03 ON   -oo +100 EQ->
@@ -427,7 +427,7 @@
 /ch/13/eq/2 PEQ 496.6 +0.00 2.0
 /ch/13/eq/3 PEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON   -oo ON +0 OFF   -oo
+/ch/13/mix ON  -1.8 ON +0 OFF   -oo
 /ch/13/mix/01 OFF   -oo +0 POST
 /ch/13/mix/02 OFF   -oo
 /ch/13/mix/03 ON   -oo +0 EQ->
@@ -694,8 +694,8 @@
 /ch/21/mix/08 ON   -oo
 /ch/21/mix/09 OFF   -oo +0 GRP
 /ch/21/mix/10 OFF   -oo
-/ch/21/mix/11 ON   -oo +0 POST
-/ch/21/mix/12 ON   -oo
+/ch/21/mix/11 ON   -oo +0 IN/LC
+/ch/21/mix/12 ON  -1.3
 /ch/21/mix/13 ON   -oo +0 POST
 /ch/21/mix/14 ON   -oo
 /ch/21/mix/15 ON   -oo +0 POST
@@ -727,7 +727,7 @@
 /ch/22/mix/09 OFF   -oo +0 GRP
 /ch/22/mix/10 OFF   -oo
 /ch/22/mix/11 ON   -oo +0 POST
-/ch/22/mix/12 ON   -oo
+/ch/22/mix/12 ON   0.0
 /ch/22/mix/13 ON   -oo +0 POST
 /ch/22/mix/14 ON   -oo
 /ch/22/mix/15 ON   -oo +0 POST
@@ -759,7 +759,7 @@
 /ch/23/mix/09 OFF   -oo +0 GRP
 /ch/23/mix/10 OFF   -oo
 /ch/23/mix/11 ON   -oo +0 POST
-/ch/23/mix/12 ON   -oo
+/ch/23/mix/12 ON  -1.3
 /ch/23/mix/13 ON   -oo +0 POST
 /ch/23/mix/14 ON   -oo
 /ch/23/mix/15 ON   -oo +0 POST
@@ -791,7 +791,7 @@
 /ch/24/mix/09 OFF   -oo +0 GRP
 /ch/24/mix/10 OFF   -oo
 /ch/24/mix/11 ON   -oo +0 POST
-/ch/24/mix/12 ON   -oo
+/ch/24/mix/12 ON   0.0
 /ch/24/mix/13 ON   -oo +0 POST
 /ch/24/mix/14 ON   -oo
 /ch/24/mix/15 ON   -oo +0 POST
@@ -1015,7 +1015,7 @@
 /ch/31/mix/09 OFF   -oo -100 GRP
 /ch/31/mix/10 OFF   -oo
 /ch/31/mix/11 ON   -oo -100 POST
-/ch/31/mix/12 ON   -oo
+/ch/31/mix/12 ON  -8.8
 /ch/31/mix/13 ON   -oo -100 POST
 /ch/31/mix/14 ON   -oo
 /ch/31/mix/15 ON   -oo -100 POST
@@ -1047,7 +1047,7 @@
 /ch/32/mix/09 OFF   -oo +100 GRP
 /ch/32/mix/10 OFF   -oo
 /ch/32/mix/11 ON   -oo +100 POST
-/ch/32/mix/12 ON   -oo
+/ch/32/mix/12 ON  -8.8
 /ch/32/mix/13 ON   -oo +100 POST
 /ch/32/mix/14 ON   -oo
 /ch/32/mix/15 ON   -oo +100 POST
@@ -1458,7 +1458,7 @@
 /bus/01/eq/5 PEQ 5k02 +0.00 2.0
 /bus/01/eq/6 HShv 10k02 +0.00 2.0
 /bus/01/mix ON  +0.7 ON -100 OFF   -oo
-/bus/01/mix/01 ON   -oo -100 POST
+/bus/01/mix/01 ON   -oo -100 IN/LC
 /bus/01/mix/02 ON   -oo
 /bus/01/mix/03 ON   -oo -100 POST
 /bus/01/mix/04 ON   -oo
@@ -1477,7 +1477,7 @@
 /bus/02/eq/5 PEQ 5k02 +0.00 2.0
 /bus/02/eq/6 HShv 10k02 +0.00 2.0
 /bus/02/mix ON  +0.7 ON +100 OFF   -oo
-/bus/02/mix/01 ON   -oo +100 POST
+/bus/02/mix/01 ON   -oo +100 IN/LC
 /bus/02/mix/02 ON   -oo
 /bus/02/mix/03 ON   -oo +100 POST
 /bus/02/mix/04 ON   -oo
@@ -1655,7 +1655,7 @@
 /bus/11/mix/05 ON   -oo +0 POST
 /bus/11/mix/06 ON   -oo
 /bus/11/grp %00000000 %000000
-/bus/12/config "MixBus" 71 CY
+/bus/12/config "comm" 71 RD
 /bus/12/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/12/dyn/filter OFF 3.0 990.9
 /bus/12/insert OFF PRE OFF
@@ -1666,7 +1666,7 @@
 /bus/12/eq/4 PEQ 1k97 +0.00 2.0
 /bus/12/eq/5 PEQ 5k02 +0.00 2.0
 /bus/12/eq/6 HShv 10k02 +0.00 2.0
-/bus/12/mix OFF   -oo OFF +0 OFF   -oo
+/bus/12/mix OFF  +1.1 OFF +0 OFF   -oo
 /bus/12/mix/01 ON   -oo +0 POST
 /bus/12/mix/02 ON   -oo
 /bus/12/mix/03 ON   -oo +0 POST
@@ -1968,7 +1968,7 @@
 /outputs/p16/14/iQ OFF none Linear 0
 /outputs/p16/15 0 PRE OFF
 /outputs/p16/15/iQ OFF none Linear 0
-/outputs/p16/16 76 POST OFF
+/outputs/p16/16 15 POST OFF
 /outputs/p16/16/iQ OFF none Linear 0
 /outputs/aes/01 1 POST OFF
 /outputs/aes/02 2 POST OFF

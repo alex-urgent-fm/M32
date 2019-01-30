@@ -1,6 +1,6 @@
 showfile/show "show2" 0 0 0 0 0 0 0 0 0 0 "2.12"
-showfile/cue/000 100 "" 0 90 -1 0 1 0 0
-showfile/cue/001 200 "" 0 0 -1 0 1 0 0
+showfile/cue/000 100 "ug" 0 0 -1 0 1 0 0
+showfile/cue/001 200 "alex" 0 1 -1 0 1 0 0
 showfile/cue/002 0 "" 0 -1 -1 0 1 0 0
 showfile/cue/003 0 "" 0 -1 -1 0 1 0 0
 showfile/cue/004 0 "" 0 -1 -1 0 1 0 0
