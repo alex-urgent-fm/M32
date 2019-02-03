@@ -18,6 +18,7 @@ BUSY
 TODO
 ----
 
+- library: rec/playback routing
 - routing: are outputs used? aux?
 - zero gains, phantom off?
 - check HA settings, phantom
@@ -35,7 +36,7 @@ b1/2 9/10
 
 
 - M32-edit: aux inputs?
-- 40 kHz ipv 48kHz
+- 40 kHz / 48kHz
 - drawing of current routing / patch setup!
 
 
