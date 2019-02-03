@@ -599,7 +599,7 @@ showfile/scene/096 "YOKAN3" "" %000000000 1
 showfile/scene/097 "-" "" %111111100 1
 showfile/scene/098 "YOKAN" "" %000000000 1
 showfile/scene/099 "RUN SOFA" "" %000000010 1
-showfile/snippet/000 "test" 1 1 0 0 1
+showfile/snippet/000 "" 0 0 0 0 0
 showfile/snippet/001 "" 0 0 0 0 0
 showfile/snippet/002 "" 0 0 0 0 0
 showfile/snippet/003 "" 0 0 0 0 0
